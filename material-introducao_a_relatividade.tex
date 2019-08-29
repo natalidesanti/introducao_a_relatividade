@@ -10,6 +10,7 @@
 \usepackage{titleps}
 \usepackage{amsmath}
 \usepackage{libertine}
+\usepackage{hyperref}
 \usepackage{tcolorbox}%para fazer caixas no texto - Gera caixas em escalas de cinza
 %\newtcolorbox{mybox}{colback=red!5!white,colframe=red!75!black}%gera caixas com as cores definidas
 \newtcolorbox{mybox1}[1]{colback=red!5!white,colframe=red!75!black,fonttitle=\bfseries,title=#1}%um tipo customizado de caixa com titulo e cores
@@ -31,11 +32,35 @@
 
 %------------------------------------------------------------------------
 
+\section{Introdução}
+
+Isaac Newton acreditava que o espaço e o tempo eram entidades completamente separadas: o tempo fluiria igualmente para todos os observadores e as distâncias espaciais seriam idênticas independentemente do que esses observadores fizessem. A {\bf Dinâmica Newtoniana}, consolidada na publicação de seu livro {\em Philosophiae Naturalis Principia Mathematica} (1687), funciona muito bem para fenômenos cotidianos, como para descrever movimentos simples (carros, corredores, trajetória de uma bola de futebol) \cite{nightingale2006}.
+
+Entretanto, no início do século XX a {\bf Teoria da Relatividade} surgiu, revolucionando a Física existente até o momento \cite{pires2011}. Noções de que o espaço e o tempo seriam partes de uma entidade única e fundamental, o espaço-tempo, nortearam o desenvolvimento da {\bf Relatividade Especial} (RE) \cite{einstein1905, martins2005}. Essa teoria impunha que as leis da Física seriam as mesmas em todos os referenciais inerciais e que a velocidade da luz seria um limite natural independente do referencial em questão. Dessa forma, ela confrontava as tão bem estabelecidas {\bf Leis de Newton}, porque, segundo as mesmas, a interação gravitacional agiria instantaneamente. Assim, a ideia de unir a RE à gravitação foi uma das bases para o desenvolvimento da {\bf Relatividade Geral} (RG).
+
+Em 1915 Albert Einstein propôs uma série de equações que consolidaram a RG \cite{einstein1915}. A RG pode ser descrita como uma teoria da gravitação que proporciona uma nova conotação para a gravidade: ela não seria mais considerada como uma força entre dois corpos, como na teoria Newtoniana, mas sim uma manifestação da curvatura do espaço-tempo. Além disso, essa teoria mantinha as noções de causalidade e localidade da RE. Diversos testes e experimentos foram e ainda são feitos com essa teoria, a saber: o avanço no periélio de Mercúrio, a deflexão e o desvio espectral da luz e, mais recentemente, as ondas gravitacionais, obtendo extrema precisão experimental. Em 1916, a primeira solução para as equações de Einstein foi criada por Karl Schwarzschild \cite{schwarzschild1916} e após muita relutância, ela foi o ponto de partida para a teoria dos buracos negros.
+
+%------------------------------------------------------------------------
+
 \section{Relatividade especial}
+
+A RE ou {\bf Relatividade Restrita} é o estudo das propriedades geométricas do espaço-tempo na ausência de {\em campos gravitacionais} e de seus efeitos nos fenômenos físicos que nele se desenvolvem.\\
+
+\begin{tcolorbox}
+ {\bf Observadores/referenciais inerciais} são sistemas de coordenadas baseados em três eixos mutualmente ortogonais, de coordenadas, por exemplo, $x$, $y$ e $z$ no espaço, e um sistema de relógios sincronizados no repouso para esse sistema, que fornece um tempo $t$. Esse sistema é construído de modo que o movimento de uma partícula formulado para esse sistema assegura a {\em primeira lei de Newton}. 
+\end{tcolorbox}
+
+Os postulados fundamentais da RE podem ser descritos como:
+\begin{enumerate}
+ \item A velocidade da luz $c$ é a mesma em todos os referenciais inerciais;
+ \item As leis da natureza são as mesmas em todos os referenciais inerciais;
+\end{enumerate}  
 
 %------------------------------------------------------------------------
 
 \subsection{Transformações de Lorentz}
+
+Dados dois referenciais inerciais $K$ e $K'$.
 
 %------------------------------------------------------------------------
 
@@ -81,7 +106,63 @@
 
 \subsection{Solução de Schwarzshild}
 
-%------------------------------------------------------------------------
+%--------------------------------------------------------------
+%	REFERÊNCIAS
+%--------------------------------------------------------------
+
+%Usando o bibitem
+\begin{thebibliography}{99}
+ \bibitem{pires2011} PIRES, A. S. T., {\bf Evolução das idéias da física}. 2. ed. São Paulo: Livraria da Física, 2011. 
+ \bibitem{einstein1905} EINSTEIN, A., Zur elektrodynamik bewegter körper. {\bf Annalen der Physik}, v. 322, n. 10, p. 891–921, 1905. 
+ \bibitem{martins2005} MARTINS, R. d. A. A dinâmica relativística antes de einstein. {\bf Revista Brasileira de Ensino de Física}, v. 27, n. 1, p. 11 – 26, 2005.
+ \bibitem{einstein1915} MARTIN, J. K.; KOX, A. J.; SCHULMAN, R., {\bf The Collected Papers of Albert Einstein: Volume 6 - the berlin years: Writings 1914 - 1917}. New Jersey: Princeton University Press, 1996. v. 6.
+ \bibitem{schwarzschild1916} SCHWARZSCHILD, K. On the gravitational field of a mass point according to einstein’s theory. {\bf Sitzungsber. Preuss. Akad. Wiss. Berlin (Math.Phys.)}, v. 3, p. 189–196, 1999. Tradução por Antoci, S. and Loinger. A.
+   % \bibitem{matsas2005} G. E. A. Matsas, Rev. Bras. Ens. Fis. {\bf 27}, 137-145 (2005).
+ % \bibitem{matsas2009} G. E. Matsas. {\bf Tópicos em Relatividade Geral e Cosmologia}. 2009. Último acesso em \today. Disponível em: \url{https://www.ift.unesp.br/br/Home/extensao/extensao_2009.pdf}.   
+ % \bibitem{ford1997} L. H. Ford, arXiv: 9707062 (1997). 
+ % \bibitem{mukhanov2007} V. Mukhanov and S. Winitzki, {\em Introduction to quantum effects in gravity} (Cambridge University Press, Cambridge, 2007).
+ % \bibitem{parker2009} L. E. Parker and D. J. Toms, {\em Quantum field theory in curved spacetime} (Cambridge University Press, United Kingdom, 2009).
+ % \bibitem{birrell1984} N. D. Birrel and P. C. W. Davies, \textit{Quantum fields in curved space} (Cambridge University Press, New York, 1982).
+ % \bibitem{fulling1989} S. A. Fulling, \textit{Aspects of quantum field theory in curved spacetime} (Cambridge University Press, New York, 1982).
+ % \bibitem{wald1994} R. M. Wald, {\em Quantum field theory in curved spacetime and black hole thermodynamics} (University of Chicago Press, Chicago/London, 1994).
+ % \bibitem{unruh1976} W. G. Unruh, Phys. Rev. D. {\bf 4}, 870-892 (1976).
+ % \bibitem{parker1968} L. Parker, Phys. Rev. Lett. {\bf 21}, 562-564 (1968).
+ % \bibitem{fulling1976} S. A. Fulling and P. C. W. Davies, Proc. R. Soc. Lond. A {\bf 348}, 393-414 (1976).
+ % \bibitem{hawking1975} S. W. Hawking, Comm. Math. Phys. {\bf 43}, 199-220 (1975).
+ % \bibitem{hawking1973} J. M. Bardeen, B. Carter and S. W. Hawking, Comm. Math. Phys. {\bf 31}, 161-170 (1973).
+ % \bibitem{bekenstein1973} J. D. Bekenstein, Phys. Rev. D. {\bf 7}, 2333-2346 (1973).
+ % \bibitem{page2005} D. N. Page, New J. Phys. {\bf 7}, 203.  
+ % \bibitem{carroll2004} S. M. Carroll, {\em Spacetime and geometry} (Addison Wesley, San Francisco, 2004).
+ % \bibitem{dowker2014/15} F. Dowker. {\bf Black holes}. 2014/2015. Último acesso em \today. Disponível em: \url{https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/current/black-holes/bh-notes-2014_15.pdf}.
+ % \bibitem{lambert2013} P.-H Lambert, arXiv:1310.8312 (2013).
+ % \bibitem{wald1984} R. M. Wald, {\em General relativity} (University of Chicago Press, Chicago, 1984).
+ % \bibitem{hartle2003} J. B. Hartle, {\em Gravity: an introduction to general relavitity} (Addison-Wesley, San Francisco, 2003).
+ % \bibitem{schutz2009} B. F. Schutz, {\em A First Course in General Relativity} (Cambridge University Press, New York, 2009).
+ \bibitem{nightingale2006} J. Foster and J. D. Nightingale, {\em A Short Course in General Relativity} (Springer, New York, 2006).
+ % \bibitem{dinverno1998} R. d'Inverno, {\em Introducing Einstein's Relativity} (Claredon Press, Oxford, New York, 1998).
+ % \bibitem{schwarzschild1916} K. Schwarzschild, Sitzungsber. Preuss. Akad. Wiss. Berlin (Math.Phys) {\bf 3}, 189-196 (1999). Tradução por Antoci, S. e Loinger. A..
+ % \bibitem{saa2016} A. Saa., Rev. Bras. Ens. Fis. {\bf 38}, 1-14 (2016).
+ % \bibitem{einstein1915} J. K. Martin, A. J. Kox and R. Schulman, {\em The collected papers of Albert Einstein} (Princeton University Press, New Jersey, 1996), v. 6.
+ % \bibitem{mandl1984} F. Mandl and G. Shaw, {\em Quantum field theory} (John Wiley \& Sons, Great Britain, 1986).  
+ % \bibitem{peskin1996} M. E. Peskin and D. V. Schoeder, {\em An Introduction to Quantum Field Theory} (Addison-Wesley Publishing Company, USA, 1995).
+ % \bibitem{weinberg1995} S. Weinberg, {\em The Quantum Theory of Fields} (Cambridge University Press, New York, 1995).
+ % \bibitem{barton1963} G. Barton, {\em Introduction to Advanced Field Theory} (John Wiley \& Sons, USA, 1963).  
+ % \bibitem{particulas} D. Griffiths, {\em Introduction to elementary particles} (Wiley-VCH, Weinheim, 2011), e. 2.
+ % \bibitem{fabbri2005} A. Fabbri and J. Navarro-Salas, {\em Modeling black hole evaporation} (Imperial College Press, London, 2005).
+ % \bibitem{traschen1999} J. H. Traschen, arXiv:0010055 (2000).
+ % \bibitem{townsend1997} P. K. Townsend, arXiv:9707012 (1997).  
+ % \bibitem{arfken2005} G. B. Arfken and H. J. Weber, {\em Mathematical Methods for Physicists} (Elsevier Academic Press, Boston, 2005), e. 6.
+ % \bibitem{jeffrey2007} I. S. Gradshteyn and I. M. Ryzhik, {\em Table of Integrals, Series, and Products} (Academic Press, Burlington/San Diego/London, 2007) e. 7.
+ % \bibitem{hawking1998} S. Hawking, {\em A brief history of time} (Bantam Books, New York, 1998).  
+ % \bibitem{hawking2001} S. Hawking, {\em The universe in a nutshell} (Bantam Books, London, 2001).
+ % \bibitem{giddings2016} S. B. Giddings, Phys. Lett. B {\bf 754}, 39-42 (2016).
+ % \bibitem{pdg2014} K. A. Olive et al, Review of Particle Physics. Chin. Phys. {\bf C38}, 090001 (2014).
+ % \bibitem{massaVL} A. M. Ghez, S. Salim, N. N. Weinberg, J. R. Lu, T. Do, J. K. Dunn, K. Matthews, M. Morris, S. Yelda, E. E. Becklin et al, Astrophys. J {\bf 689}, 1044–1062 (2008).
+ % \bibitem{unruh1981} W. G. Unruh, Phys. Rev. Lett. {\bf 46}, 1351–1353 (1981).
+ % \bibitem{silke2010} S. Weinfurtner, E. W. Tedford, M. C. J. Penrice, W. G. Unruh and G. A. Lawrence, Phys. Rev. Lett. {\bf 106}, 021302:1–4 (2011).
+ % \bibitem{jeff2016} J. Steinhauer,  Nature Physics {\bf 12}, 959–965 (2016).
+ % \bibitem{natali2018} N. S. M. de Santi, {\em Termodinâmica de buracos negros de Schwarzschild}. Dissertação de mestrado, Universidade Federal de São Carlos, 2018.  
+\end{thebibliography}  
 
 %------------------------------------------------------------------------
 
