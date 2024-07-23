@@ -4,6 +4,9 @@ Este repositório contém o material que elaborei para um **Minicurso de introdu
 Isso aconteceu em _20 de Setembro de 2019_.
 A parte mais legal desse minicurso foi que ele foi totalmente planejado para as mulheres do curso de Física e eu tive o prazer de ministrá-lo!
 
+![](link)
+###### A turma do minicurso
+
 ## Conteúdo do reposotório
 
 Pasta material:
