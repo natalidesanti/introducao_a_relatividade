@@ -4,7 +4,7 @@ Este repositório contém o material que elaborei para um **Minicurso de introdu
 Isso aconteceu em _20 de Setembro de 2019_.
 A parte mais legal desse minicurso foi que ele foi totalmente planejado para as mulheres do curso de Física e eu tive o prazer de ministrá-lo!
 
-![](link)
+![](https://raw.githubusercontent.com/natalidesanti/introducao_a_relatividade/master/fotos/DSC_7056.JPG?token=GHSAT0AAAAAACU4TP4XUO5FW6HZFJCWWJ4IZU7XPCA)
 ###### A turma do minicurso
 
 ## Conteúdo do reposotório
